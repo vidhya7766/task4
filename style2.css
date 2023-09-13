@@ -1,0 +1,33 @@
+.box img{
+    width: 240px;
+    margin: 10px auto;
+    display: block;
+}
+.name{
+    border: 1px solid;
+    display: grid;
+    padding: 10px;
+    width: 400px;
+    height: 20px;
+}
+.box{
+    border:  1px solid;
+    display: grid;
+    width: 400px;
+    height:  500px;
+    padding: 10px;
+}
+*{
+    .box form input{
+        width: 300px;
+        padding: 10px;
+        margin:  10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .btn{
+        background-color: #383838;
+        columns: white;
+        border: none;
+    }
+}
